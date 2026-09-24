@@ -1,4 +1,4 @@
-# darp8 fan curve (branch `my-darp8-fan-curve`)
+# darp8 fan curve (branch `darp8-fan-curve`)
 
 ## TL;DR
 
@@ -29,7 +29,7 @@ throughout, no anomalies.
 
 ```sh
 # From the repo root, on this branch:
-git checkout my-darp8-fan-curve
+git checkout darp8-fan-curve
 
 # Build (runs in a disposable ubuntu:22.04 container; see "Toolchain trap")
 ./scripts/build-in-docker.sh

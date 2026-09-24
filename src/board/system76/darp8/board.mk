@@ -37,14 +37,13 @@ CFLAGS+=\
 
 # Custom fan curve
 CFLAGS+=-DBOARD_FAN_POINTS="\
-	FAN_POINT(0, 20), \
-	FAN_POINT(65, 20), \
+	FAN_POINT(0, 30), \
 	FAN_POINT(70, 30), \
-	FAN_POINT(75, 40), \
-	FAN_POINT(80, 50), \
-	FAN_POINT(85, 62), \
-	FAN_POINT(90, 75), \
-	FAN_POINT(95, 90), \
+	FAN_POINT(75, 43), \
+	FAN_POINT(80, 56), \
+	FAN_POINT(85, 69), \
+	FAN_POINT(90, 82), \
+	FAN_POINT(95, 95), \
 	FAN_POINT(97, 100) \
 "
 
