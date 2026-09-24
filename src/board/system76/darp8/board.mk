@@ -35,5 +35,18 @@ CFLAGS+=\
 	-DPOWER_LIMIT_AC=65 \
 	-DPOWER_LIMIT_DC=45
 
+# Custom fan curve
+CFLAGS+=-DBOARD_FAN_POINTS="\
+	FAN_POINT(0, 20), \
+	FAN_POINT(65, 20), \
+	FAN_POINT(70, 30), \
+	FAN_POINT(75, 40), \
+	FAN_POINT(80, 50), \
+	FAN_POINT(85, 62), \
+	FAN_POINT(90, 75), \
+	FAN_POINT(95, 90), \
+	FAN_POINT(97, 100) \
+"
+
 # Add system76 common code
 include src/board/system76/common/common.mk
